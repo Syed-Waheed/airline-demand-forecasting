@@ -1,81 +1,103 @@
-#  ✈️ Airline Passenger Demand Forecasting
+<div align="center">
 
-![Dashboard Preview](output/Output.png)
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=260&section=header&text=Airline%20Demand%20Forecasting&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20•%20Booking%20Conversion%20•%20Streamlit&descAlignY=55&descAlign=50" alt="Airline Demand Header" />
 
-## 📌 Overview
-An end-to-end machine learning project that predicts the total number of passengers for specific flight routes. The project includes data cleaning, feature engineering, model training, and deployment as an interactive web application.
+  <br />
 
-This project predicts **flight booking conversions** and **passenger demand** using machine learning.  
-We also built an **interactive Streamlit dashboard** to visualize booking patterns, demand trends, and feature importance.
-   
----
+  <p>
+    <img src="https://img.shields.io/badge/XGBoost-Gradient_Boosting-FLAT?style=for-the-badge&logo=xgboost&logoColor=white&color=red" alt="XGBoost" />
+    <img src="https://img.shields.io/badge/Scikit_Learn-Machine_Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit Learn" />
+    <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+    <img src="https://img.shields.io/badge/Imbalanced_Learn-SMOTE-blue?style=for-the-badge" alt="SMOTE" />
+  </p>
 
-## 🚀 Features
-- ✅ Predicts **booking conversion probability** and **passenger demand**
-- 📊 Streamlit-powered **interactive dashboard**
-- 🧠 ML Models: **Random Forest** & **XGBoost**
-- 🔍 Solved **class imbalance** using **SMOTE**
-- 📈 Achieved **90%+ accuracy** on the test set
-
----
-
-## 🗂 Dataset
-- **British Airways Schedule** → `British Airways Summer Schedule Dataset.csv`
-- **Customer Booking Data** → `customer_booking.csv`
-- **Records** → 10,000+ booking transactions
+  <h3>✈️ Predicting the Skies with Data</h3>
+  
+  <p align="center">
+    <i>"An end-to-end machine learning solution that predicts flight booking conversions and estimates passenger demand to optimize airline operations."</i>
+  </p>
+</div>
 
 ---
 
-## 🧠 Machine Learning Workflow
-1. **Data Cleaning & Preprocessing**  
-2. **Feature Engineering** – route, haul type, seasonal patterns  
-3. **EDA & Visualization** – booking trends, correlations, feature importances  
-4. **Modeling** – RandomForest, XGBoost, hyperparameter tuning  
-5. **Deployment** – Streamlit app for real-time predictions  
+## 📌 Mission Overview
+
+In the highly competitive aviation industry, understanding passenger behavior is key. This project utilizes **Machine Learning** to forecast:
+1.  **Booking Conversion Probability:** Will a user complete their booking?
+2.  **Passenger Demand:** How many passengers are expected on a specific route?
+
+We solved critical challenges like **class imbalance** using SMOTE and deployed the final model as an **interactive Streamlit web application**.
+
+---
+
+## 📸 Dashboard Preview
+
+<div align="center">
+  <img src="output/Output.png" alt="Streamlit Dashboard" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);" />
+  <p><i>Real-time prediction interface visualizing booking trends and demand factors.</i></p>
+</div>
+
+---
+
+## 🚀 Key Features
+
+- ✅ **Dual Prediction Engine**: Estimates both Booking Probability (Classification) and Total Passengers (Regression).
+- 📊 **Interactive Dashboard**: Powered by Streamlit for real-time scenario testing.
+- 🧠 **Advanced Modeling**: Ensembled **Random Forest** & **XGBoost** for maximum accuracy.
+- ⚖️ **Imbalance Handling**: Applied **SMOTE** (Synthetic Minority Over-sampling Technique) to fix skewed booking data.
+- 🔍 **Feature Intelligence**: Route analysis, flight duration, and seasonal pattern detection.
+
+---
+
+## 🛠️ The ML Pipeline
+
+This project follows a production-ready workflow:
+
+1.  **Data Ingestion**: Merging `British Airways Schedule` with `Customer Booking Data` (10,000+ records).
+2.  **Preprocessing**: Cleaning nulls, encoding categorical variables, and handling outliers.
+3.  **Feature Engineering**: Creating "Haul Type", "Route Demand", and "Seasonality" features.
+4.  **Modeling**: Training Random Forest & XGBoost with Hyperparameter Tuning.
+5.  **Evaluation**: rigorous testing on unseen data.
+6.  **Deployment**: Serving the model via a Streamlit frontend.
 
 ---
 
 ## 📊 Model Performance
-| Metric      | Score  |
-|------------|--------|
-| **Accuracy**  | 90%+ |
-| **MAE**       | 2.36 |
-| **R² Score**  | 0.79 |
+
+Our models achieved high reliability on the test set:
+
+| Metric | Score | Performance Verdict |
+| :--- | :--- | :--- |
+| **Accuracy** | **90%+** | 🟢 Excellent |
+| **R² Score** | **0.79** | 🟢 Strong Correlation |
+| **MAE** | **2.36** | 🟢 Low Error Margin |
 
 ---
 
-## 📷 Dashboard Preview
-![Streamlit Dashboard](Output/output.png)
+## 🛠 Tech Stack
+
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Language** | ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python) | Core Logic |
+| **ML Algorithms** | ![XGBoost](https://img.shields.io/badge/-XGBoost-black?style=flat-square) ![RandomForest](https://img.shields.io/badge/-Random_Forest-black?style=flat-square) | Predictive Modeling |
+| **Frontend** | ![Streamlit](https://img.shields.io/badge/-Streamlit-black?style=flat-square&logo=streamlit) | Web App Interface |
+| **Data Processing** | ![Pandas](https://img.shields.io/badge/-Pandas-black?style=flat-square&logo=pandas) | Data Manipulation |
+| **Balancing** | ![SMOTE](https://img.shields.io/badge/-SMOTE-black?style=flat-square) | Handling Class Imbalance |
 
 ---
 
-## 🛠 Installation & Setup
+## ⚙️ Installation & Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/waheed24-03/Airline-Booking-Conversion-Prediction.git
+# 1. Clone the repository
+git clone [https://github.com/Syed-Waheed/Airline-Booking-Conversion-Prediction.git](https://github.com/Syed-Waheed/Airline-Booking-Conversion-Prediction.git)
 
-# Navigate to project
+# 2. Navigate to project directory
 cd Airline-Booking-Conversion-Prediction
 
-# Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# Run the Streamlit dashboard
+# 4. Launch the Dashboard
 streamlit run app.py
 ```
----
-## Acknowledgements
-- British Airways
-- Forage
-- Streamlit 
---- 
-## 👤 Author
-- Syed Abdul Waheed
-- Data Science Enthusiast | Python Developer | Automation Explorer
-- 📬 Connect: LinkedIn (https://www.linkedin.com/in/syed-abdul-waheed/)
-- 🐙 GitHub: waheed24-03
----
-
-
-
