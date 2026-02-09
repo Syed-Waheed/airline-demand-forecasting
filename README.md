@@ -101,3 +101,36 @@ pip install -r requirements.txt
 # 4. Launch the Dashboard
 streamlit run app.py
 ```
+---
+## 📎 Acknowledgements & 👤 Author
+
+- **British Airways** for the dataset context  
+- **Forage** for the virtual internship framework  
+- **Streamlit Community** for deployment resources  
+
+<div align="left">
+  <img src="https://github.com/Syed-Waheed.png" width="100" align="left" style="margin-right: 20px; border-radius: 50%;" alt="Syed Abdul Waheed" />
+
+  <strong>Syed Abdul Waheed</strong><br/>
+  <em>Data Science Enthusiast | Python Developer | Automation Explorer</em>
+
+  Focused on building robust ML pipelines and turning data into business value.
+
+  <br /><br />
+
+  <a href="https://www.linkedin.com/in/syed-abdul-waheed/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/Syed-Waheed">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+</div>
+
+<br clear="left"/>
+
+<div align="center">
+  <p>If you found this project useful, please ⭐ the repository!</p>
+</div>
+
+
+---
