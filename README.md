@@ -129,8 +129,6 @@ streamlit run app.py
 <br clear="left"/>
 
 <div align="center">
-  <p>If you found this project useful, please ⭐ the repository!</p>
-</div>
 
 
 ---
