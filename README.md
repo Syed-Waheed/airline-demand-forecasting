@@ -129,6 +129,5 @@ streamlit run app.py
 <br clear="left"/>
 
 <div align="center">
-</div>
 
 ---
