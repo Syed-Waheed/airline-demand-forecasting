@@ -73,9 +73,7 @@ Our models achieved high reliability on the test set:
 | **MAE** | **2.36** | 🟢 Low Error Margin |
 
 ---
-
-
-
+## 🛠 Tech Stack
 | Component | Technology | Description |
 | :--- | :--- | :--- |
 | **Language** | ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python) | Core Logic |
