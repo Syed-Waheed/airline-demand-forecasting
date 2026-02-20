@@ -74,7 +74,7 @@ Our models achieved high reliability on the test set:
 
 ---
 
-## 🛠 Tech Stack
+
 
 | Component | Technology | Description |
 | :--- | :--- | :--- |
