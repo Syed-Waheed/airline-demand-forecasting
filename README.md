@@ -1,5 +1,5 @@
 
-<div align="center">
+
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=260&section=header&text=Airline%20Demand%20Forecasting&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Machine%20Learning%20•%20Booking%20Conversion%20•%20Streamlit&descAlignY=55&descAlign=50" alt="Airline Demand Header" />
 
   <br />
